@@ -1,3 +1,5 @@
+# CreativeWebTeamwork
+CreativeWebTeamwork là nơi quy tụ các nhà phát triển và thiết kế web, hợp tác để xây dựng những trang web độc đáo và sáng tạo. Chúng tôi tập trung vào việc làm việc nhóm hiệu quả và phát triển website đẹp mắt, đáp ứng nhu cầu của khách hàng. Hãy tham gia cùng chúng tôi để chia sẻ ý tưởng và cống hiến cho dự án!
 # **CHÚ Ý ĐỌC VÀ LÀM CHÍNH XÁC THEO HƯỚNG DẪN TRƯỚC KHI THỰC HIỆN BẤT KÌ MỘT HÀNH ĐỘNG NÀO TRÊN GIT**
 
 ## I. Thực hiện clone repository
@@ -75,7 +77,3 @@ git push origin ROOT_Ngo_Quang_Dai
 - **Hỏi khi cần thiết**: Nếu gặp bất kỳ vấn đề nào liên quan đến git hoặc công việc, hãy đặt câu hỏi để được giúp đỡ.
 
 Hãy tuân thủ các hướng dẫn trên để thực hiện công việc nhóm hiệu quả và đạt được kết quả tốt nhất trên dự án Website chung.
-
-
-# CreativeWebTeamwork
-CreativeWebTeamwork là nơi quy tụ các nhà phát triển và thiết kế web, hợp tác để xây dựng những trang web độc đáo và sáng tạo. Chúng tôi tập trung vào việc làm việc nhóm hiệu quả và phát triển website đẹp mắt, đáp ứng nhu cầu của khách hàng. Hãy tham gia cùng chúng tôi để chia sẻ ý tưởng và cống hiến cho dự án!
