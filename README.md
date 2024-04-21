@@ -32,34 +32,50 @@ git commit -m "first commit"
 ```
 git push origin ROOT_Ngo_Quang_Dai
 ```
+## Hướng dẫn làm việc nhóm trên dự án Website
 
-Hướng dẫn làm việc nhóm trên dự án Website
-I. Tạo nhánh mới và thực hiện công việc
-Tạo nhánh mới: Sử dụng lệnh sau để tạo nhánh mới từ nhánh chính theo format: <họ_và_tên_msv/cong-viec>:
-bash
-Copy code
-git checkout -b Ngo_Quang_Dai_1122334455/website-feature
-Tạo folder công việc: Tạo một thư mục mới chứa tên công việc bạn đang thực hiện trên nhánh này.
-Thực hiện công việc: Làm công việc của bạn trên nhánh của bạn. Sau khi hoàn thành mỗi phần công việc, thêm các thay đổi, commit và push lên nhánh của bạn:
-sql
-Copy code
-git add .
-git commit -m "Hoàn thành phần công việc mới"
-git push origin Ngo_Quang_Dai_1122334455/website-feature
-II. Tạo pull request vào nhánh chính
-Tạo Pull Request: Truy cập GitHub và tạo Pull Request từ nhánh của bạn vào nhánh chính. Ghi rõ nội dung của Pull Request.
-III. Cập nhập công việc từ git
-Cập nhập công việc: Mỗi khi có công việc mới, hãy chuyển về nhánh chính của bạn và pull các thay đổi từ nhánh chính:
-css
-Copy code
-git checkout Ngo_Quang_Dai_1122334455
-git pull origin main
-Thực hiện công việc mới: Sau khi cập nhập thành công, làm công việc mới bằng cách thực hiện lại các bước từ I. Tạo nhánh mới và thực hiện công việc.
-IV. Lưu ý quan trọng
-Kiểm tra nhánh: Luôn chắc chắn rằng bạn đang làm việc trên nhánh của mình và không thực hiện pull request vào nhánh chính hoặc nhánh của thành viên khác.
-Tuân thủ format: Đặt tên nhánh và thư mục theo đúng format quy định để tránh vi phạm và làm rối mắt đồng nghiệp.
-Hoàn thành đúng hạn: Luôn hoàn thành công việc đúng hạn để tránh bị trừ điểm.
-Hỏi khi cần thiết: Nếu gặp bất kỳ vấn đề nào liên quan đến git hoặc công việc, hãy đặt câu hỏi để được giúp đỡ.
+### I. Tạo nhánh mới và thực hiện công việc
+
+1. **Tạo nhánh mới**: Sử dụng lệnh sau để tạo nhánh mới từ nhánh chính theo format: `<họ_và_tên_msv/cong-viec>`:
+
+    ```bash
+    git checkout -b Ngo_Quang_Dai_1122334455/website-feature
+    ```
+
+2. **Tạo folder công việc**: Tạo một thư mục mới chứa tên công việc bạn đang thực hiện trên nhánh này.
+
+3. **Thực hiện công việc**: Làm công việc của bạn trên nhánh của bạn. Sau khi hoàn thành mỗi phần công việc, thêm các thay đổi, commit và push lên nhánh của bạn:
+
+    ```bash
+    git add .
+    git commit -m "Hoàn thành phần công việc mới"
+    git push origin Ngo_Quang_Dai_1122334455/website-feature
+    ```
+
+### II. Tạo pull request vào nhánh chính
+
+1. **Tạo Pull Request**: Truy cập GitHub và tạo Pull Request từ nhánh của bạn vào nhánh chính. Ghi rõ nội dung của Pull Request.
+
+### III. Cập nhập công việc từ git
+
+1. **Cập nhập công việc**: Mỗi khi có công việc mới, hãy chuyển về nhánh chính của bạn và pull các thay đổi từ nhánh chính:
+
+    ```bash
+    git checkout Ngo_Quang_Dai_1122334455
+    git pull origin main
+    ```
+
+2. **Thực hiện công việc mới**: Sau khi cập nhập thành công, làm công việc mới bằng cách thực hiện lại các bước từ **I. Tạo nhánh mới và thực hiện công việc**.
+
+### IV. Lưu ý quan trọng
+
+- **Kiểm tra nhánh**: Luôn chắc chắn rằng bạn đang làm việc trên nhánh của mình và không thực hiện pull request vào nhánh chính hoặc nhánh của thành viên khác.
+- **Tuân thủ format**: Đặt tên nhánh và thư mục theo đúng format quy định để tránh vi phạm và làm rối mắt đồng nghiệp.
+- **Hoàn thành đúng hạn**: Luôn hoàn thành công việc đúng hạn để tránh bị trừ điểm.
+- **Hỏi khi cần thiết**: Nếu gặp bất kỳ vấn đề nào liên quan đến git hoặc công việc, hãy đặt câu hỏi để được giúp đỡ.
+
+Hãy tuân thủ các hướng dẫn trên để thực hiện công việc nhóm hiệu quả và đạt được kết quả tốt nhất trên dự án Website chung.
+
 
 # CreativeWebTeamwork
 CreativeWebTeamwork là nơi quy tụ các nhà phát triển và thiết kế web, hợp tác để xây dựng những trang web độc đáo và sáng tạo. Chúng tôi tập trung vào việc làm việc nhóm hiệu quả và phát triển website đẹp mắt, đáp ứng nhu cầu của khách hàng. Hãy tham gia cùng chúng tôi để chia sẻ ý tưởng và cống hiến cho dự án!
