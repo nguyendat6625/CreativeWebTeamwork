@@ -33,7 +33,7 @@ submit.addEventListener("click",() =>{
                      mode:"no-cors"
               })
        }
-       window.location.href = "./home.html"
+       window.location.href = "./Login.html"
 
        }else{
           // Hoặc sử dụng window.location.reload()
