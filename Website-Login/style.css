@@ -12,15 +12,18 @@ background-size: cover;
    }
    
 .main {
-       width: 20em; /* Kích thước cố định */
-       height: 35em; /* Kích thước cố định */
-       background-color: #94bbe9;
-       border-radius: 10px;
-       margin: 5em auto; /* Canh giữa */
-       background-image: url(./img/backgoundlogindemo.avif);
-       background-size: cover;
-   }
-   
+    width: 20em; /* Fixed size */
+    height: 35em; /* Fixed size */
+    background-color: #94bbe9;
+    border-radius: 10px;
+    margin: 5em auto; /* Center alignment */
+    background-image: url(./img/backgoundlogindemo.avif);
+    background-size: cover;
+    position: relative; /* Added for absolute positioning inside */
+    
+}
+
+
 .form-group {
        width: 85%;
        height: 3.5em; /* Kích thước cố định */
