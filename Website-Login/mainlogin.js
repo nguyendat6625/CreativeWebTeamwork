@@ -12,19 +12,5 @@ if (inputPass.type =="password"){
 inputPass.type = "password"
 }
 })
-const showrepass = document.getElementById("show-repass");
-const inputrePass = document.getElementById("repassword");
-showrepass.addEventListener("click",function(){
-if (showrepass.className=="mdieyeoff"){
-showrepass.classList.replace("mdieyeoff","mdieye");
-}else{
-showrepass.classList.replace("mdieye","mdieyeoff");
-}
-if (inputrePass.type =="password"){
-    inputrePass.type = "text";
-}else{
-inputrePass.type = "password"
-}
-})
 
    
