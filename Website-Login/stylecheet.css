@@ -4,6 +4,7 @@ body{
        margin:5em auto;
        background-image: url(./img/background-Login.jpg);
        background-size: cover;
+       background-size: contain;
        background-repeat: no-repeat;
        background-position: center center;
 }
