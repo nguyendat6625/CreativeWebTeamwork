@@ -5,6 +5,7 @@ body{
        background-image: url(./img/background-Login.jpg);
        background-size: cover;
        background-repeat: no-repeat;
+       background-position: center center;
 }
 .form {
        width: 20.4em;
