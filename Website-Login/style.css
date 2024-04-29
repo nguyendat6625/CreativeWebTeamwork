@@ -2,6 +2,7 @@ body{
 background-image: url(./img/background-Login.jpg);
 background-repeat: no-repeat;
 background-size: cover;
+background-position: center center;
 }
 .logo-text {
   text-align: center;
@@ -11,7 +12,6 @@ background-size: cover;
    }
    
    .main {
-        
     width: 20.5em; /* Fixed size */
     height: 35.1em; /* Fixed size */
     display: flex;
