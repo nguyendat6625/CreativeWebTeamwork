@@ -15,9 +15,23 @@
             alert ("Vui lòng nhập đúng định dạng Password!");
             status = false;
         }
+        
         if(status){
-            alert ("Đăng nhập thành công!");
-        }
+            document.getElementById("button").addEventListener("click", function (event){
+                    event.preventDefault()
+                    Swal.fire({
+                        position: "top",
+                        icon: "success",
+                        title: "Đăng nhập thành công",
+                        showConfirmButton: false,
+                        timer: 2500
+                    });
+                })
+                document.getElementById('submit').addEventListener('click', function(event) {
+                    window.location.href = './index.html'; // Chuyển hướng sang trang mới khi click nút
+                });
+          }
+        
         return status;
 
 
