@@ -2,7 +2,6 @@ body{
 background-image: url(./img/background-Login.jpg);
 background-repeat: no-repeat;
 background-size: cover;
-background-size: contain;
 background-position: center center;
 }
 .logo-text {
