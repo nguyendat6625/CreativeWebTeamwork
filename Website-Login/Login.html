@@ -12,18 +12,19 @@
 <div class="card">
        <div class="card2">
          <form class="form" onsubmit="return ktra()">
+
            <p id="heading">Login</p>
          <div class="textinput">
                 
                     <!-- Input fields and icons here -->
                     <input type="text" class="field" placeholder="Username">
-                  
+                  <i style="width: 16px;height: 16px;"></i>
          </div>
            <div class="textinput">
                   
                     <!-- Input fields and icons here -->
-                    <input type="text" class="field" placeholder="Username" id="user">
-                    <i style="width: 16px;height: 16px;"></i>
+                    <input type="password" class="field" placeholder="Password" id="user">
+                    <i style="width: 16px;height: 16px;" id="show-pass" class="mdieyeoff"></i>
                  
            </div>
            <br>
@@ -40,7 +41,7 @@
      </div>
      
 </body>
-<script src="./main.js"></script>
+<script src="./mainlogin.js"></script>
 <script>
   document.getElementById("button").addEventListener("click", function (event){
         event.preventDefault()

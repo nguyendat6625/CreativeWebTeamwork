@@ -2,10 +2,14 @@ body{
        display: flex;
        justify-content: center;
        margin:5em auto;
+       background-image: url(./img/background-Login.jpg);
+       background-size: cover;
+       background-repeat: no-repeat;
+       background-position: center center;
 }
 .form {
-       width: 20em;
-       height: 27em;
+       width: 20.4em;
+       height: 27.1em;
        display: flex;
        flex-direction: column;
        gap: 10px;
@@ -13,7 +17,7 @@ body{
        padding-right: 2em;
        padding-bottom: 0.4em;
        background-color: #171717;
-       border-radius: 25px;
+       border-radius: 27px;
        transition: 0.4s ease-in-out;
      }
      
@@ -172,5 +176,4 @@ body{
      }
 #show-pass{
        transform: translate(-1.5em,0.5em);
-
 }
