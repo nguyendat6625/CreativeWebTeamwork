@@ -2,6 +2,9 @@ body{
        display: flex;
        justify-content: center;
        margin:5em auto;
+       background-image: url(./img/background-Login.jpg);
+       background-size: cover;
+       background-repeat: no-repeat;
 }
 .form {
        width: 20em;
@@ -172,5 +175,4 @@ body{
      }
 #show-pass{
        transform: translate(-1.5em,0.5em);
-
 }
