@@ -12,17 +12,16 @@ background-size: cover;
    
    .main {
         
-    width: 20em; /* Fixed size */
-    height: 35em; /* Fixed size */
+    width: 20.5em; /* Fixed size */
+    height: 35.1em; /* Fixed size */
     display: flex;
-    
     flex-direction: column;
     gap: 10px;
     padding-left: 2em;
     padding-right: 2em;
     padding-bottom: 0.4em;
     background-color: #171717;
-    border-radius: 25px;
+    border-radius: 29px;
     transition: 0.4s ease-in-out;
   }
 .card {
