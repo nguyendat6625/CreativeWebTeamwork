@@ -1,4 +1,4 @@
-const namecustomer = document.getElementById("fullname");
+const user = document.getElementById("user");
 const email = document.getElementById("email");
 const password = document.getElementById("password");
 const submit = document.getElementById("submit");
@@ -14,9 +14,9 @@ submit.addEventListener("click",() =>{
        if (isValid) {
            alert("Bạn đã đăng ký thành công");
            alert("Email sẽ sớm gửi về máy bạn")
-       if (namecustomer.value && email.value && password.value){
+       if (user.value && email.value && password.value){
               const data = {
-                     name: namecustomer.value,
+                     name: user.value,
                      email: email.value,
                      password:password.value
               };
@@ -78,13 +78,13 @@ inputrePass.type = "password"
 
 // Hàm kiểm tra tên
 function checkName() {
-    const nameInput = document.querySelector("#fullname");
-    const fullNameRegex = /^[^\d\s]+(\s+[^\d\s]+){1,}$/;
-    const errName = !fullNameRegex.test(nameInput.value);
-    const errorNameElement = document.querySelector("#error_name");
+    const nameInput = document.querySelector("#user");
+    const userRegex = /^(?=.*[a-z\d])[a-zA-Z\d]+$/;
+    const errName = !userRegex.test(nameInput.value);
+    const errorNameElement = document.querySelector("#error_user");
     
     if (errName) {
-        errorNameElement.innerHTML = "Vui lòng nhập lại tên";
+        errorNameElement.innerHTML = "Vui lòng nhập lại user";
         return false;
     } else {
         errorNameElement.innerHTML = "";
@@ -111,7 +111,7 @@ function checkEmail() {
 // Hàm kiểm tra mật khẩu
 function checkPass() {
     const passInput = document.querySelector("#password");
-    const passwordRegex = /^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$/;
+    const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d|[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$|(?=.*[a-z\d@$!%*?&])[a-z\d@$!%*?&]{8,}$/;
     const errPass = !passwordRegex.test(passInput.value);
     const errorPassElement = document.querySelector("#error_pass");
 
