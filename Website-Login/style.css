@@ -69,7 +69,7 @@ background-position: center center;
    height: 2em;
    cursor: pointer;
  }
-#fullname,
+#user,
 #email,
 #password,
 #repassword {
@@ -87,7 +87,7 @@ background-position: center center;
   box-shadow: inset 2px 5px 10px rgb(5, 5, 5);
     }
     
- #fullname:hover,
+ #user:hover,
  #email:hover,
  #password:hover,
  #repassword:hover {
@@ -98,7 +98,7 @@ background-position: center center;
       transform: translate(-1.6em,0.5em);
     
     }
-#error_email,#error_name,#error_pass,#error_repass{
+#error_email,#error_user,#error_pass,#error_repass{
        color: yellow;
 }
 #warring{
