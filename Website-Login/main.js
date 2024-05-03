@@ -1,4 +1,4 @@
-const user = document.getElementById("user");
+const user = document.getElementById("fullname");
 const email = document.getElementById("email");
 const password = document.getElementById("password");
 const submit = document.getElementById("submit");
@@ -9,7 +9,6 @@ submit.addEventListener("click",() =>{
        isValid = checkEmail() && isValid;
        isValid = checkPass() && isValid;
        isValid = checkRepass() && isValid;
-   
        // Nếu tất cả các kiểm tra đều hợp lệ, hiển thị thông báo thành công
        if (isValid) {
            alert("Bạn đã đăng ký thành công");
@@ -78,10 +77,10 @@ inputrePass.type = "password"
 
 // Hàm kiểm tra tên
 function checkName() {
-    const nameInput = document.querySelector("#user");
+    const nameInput = document.querySelector("#fullname");
     const userRegex = /^(?=.*[a-z\d])[a-zA-Z\d]+$/;
     const errName = !userRegex.test(nameInput.value);
-    const errorNameElement = document.querySelector("#error_user");
+    const errorNameElement = document.querySelector("#error_name");
     
     if (errName) {
         errorNameElement.innerHTML = "Vui lòng nhập lại user";
